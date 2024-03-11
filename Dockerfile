@@ -1,4 +1,4 @@
 FROM alpine:latest
 RUN apk update && \
-    apk add alpine-sdk cmake clang libressl-dev vim ash
+    apk add alpine-sdk cmake clang libressl-dev vim python3
 
